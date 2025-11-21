@@ -1,0 +1,48 @@
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Development files
+CLAUDE.md
+README_TEMPLATE.md
+
+# Source files (only publish dist)
+credentials/**/*.ts
+nodes/**/*.ts
+tsconfig.json
+*.ts
+!dist/**/*
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Temporary files
+outputs/
+tmp/
+temp/
+*.log
+
+# macOS
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+test/
+tests/
+*.test.ts
+*.spec.ts
+
+# Documentation (keep in git, exclude from npm)
+docs/
+examples/

@@ -1,0 +1,20 @@
+{
+  "node": "n8n-nodes-snovio",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Sales & Marketing"
+  ],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://snov.io/api"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/devsnovio/n8n-nodes-snovio"
+      }
+    ]
+  }
+}

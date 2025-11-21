@@ -1,0 +1,17 @@
+.idea
+.vscode
+.env
+.run
+_ide_helper.php
+node_modules
+*.log
+*.map
+.phpstorm.meta.php
+dist
+.DS_Store
+.npmrc
+.yarnrc
+/jsconfig.json
+.yarn
+.yarnrc.yml
+.cursorrules

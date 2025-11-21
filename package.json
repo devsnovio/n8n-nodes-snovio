@@ -1,0 +1,76 @@
+{
+  "name": "n8n-nodes-snovio",
+  "version": "0.0.1",
+  "description": "Official Snov.io nodes for n8n workflow automation. Full API integration for B2B email and lead generation.",
+  "license": "MIT",
+  "homepage": "https://snov.io",
+  "keywords": [
+    "n8n",
+    "n8n-community-node-package",
+    "n8n-nodes",
+    "workflow",
+    "automation",
+    "snovio",
+    "snov.io",
+    "snov",
+    "email-finder",
+    "email-verification",
+    "email-verifier",
+    "lead-generation",
+    "b2b",
+    "sales-automation",
+    "domain-search",
+    "prospect",
+    "prospecting",
+    "email-discovery",
+    "email-validation",
+    "outreach",
+    "crm",
+    "email-enrichment",
+    "data-enrichment",
+    "email-hunter",
+    "email-search",
+    "api",
+    "integration"
+  ],
+  "author": {
+    "name": "snov.io",
+    "email": "dev@snov.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsnovio/n8n-nodes-snovio.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/SnovioApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/SnovioApi/SnovioApi.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
