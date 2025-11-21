@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-snovio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Official Snov.io nodes for n8n workflow automation. Full API integration for B2B email and lead generation.",
   "license": "MIT",
   "homepage": "https://snov.io",
