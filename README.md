@@ -270,7 +270,7 @@ End-to-end automated lead generation and CRM integration.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE.md)
 
 Copyright © 2025 snov.io
 

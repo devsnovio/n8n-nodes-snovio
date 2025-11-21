@@ -15,7 +15,7 @@ export class SnovioApi implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Snov.io API',
     name: 'snovioApi',
-    group: ['sales', 'marketing'],
+    group: ['transform'],
     version: 1,
     subtitle: '={{ $parameter["operation"] + ": " + $parameter["resource"] }}',
     description: 'B2B email finder, lead generation, and multi-channel outreach automation',
